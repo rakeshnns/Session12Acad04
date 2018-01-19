@@ -1,0 +1,11 @@
+<nav class="navbar navbar-inverse">
+    <ul class="nav navbar-nav">
+       <li><a [routerLink]="['/add']">Add</a></li>
+       <li><a [routerLink]="['/view']">View</a></li>
+   <!--    <li><a [routerLink]="['/submit']">Publish</a></li>     No components present -->
+    </ul>
+</nav>    
+   <!-- <a [routerLink] = "['/Eview',PassName]">{{ PassName }} Employee</a> -->
+    <div class="outer-outlet">
+      <router-outlet></router-outlet>
+    </div>
